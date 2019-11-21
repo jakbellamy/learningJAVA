@@ -9,6 +9,7 @@ public class Main {
         char firstCharacter = userInput.charAt(0);
         System.out.println(firstCharacter);
 
-        System.out.println(userInput.contains("enter"));
+        System.out.println(userInput.contains("Enter"));
+        System.out.println(userInput.contains("Enter".toLowerCase()));
     }
 }
